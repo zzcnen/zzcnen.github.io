@@ -4,5 +4,5 @@
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "GMEEK_VERSION":"last"
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
-    <script defer src="https://cn.vercount.one/js"></script>
+    "<script defer src="https://cn.vercount.one/js"></script>",
 }
