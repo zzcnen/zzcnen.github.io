@@ -1,6 +1,15 @@
 {
-    "title":"My New Blog",
-    "subTitle":"This is my new Blog",
+    "title":"Meekdai",
+    "subTitle":"童话是一种生活态度，仅此而已。",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
+    "displayTitle":"Meekdai",
+    "homeUrl":"https://blog.cnen.eu.org",
+    "i18n":"CN",
+    "UTC":8,
+    "themeMode":"manual",
+    "dayTheme":"light",
+    "nightTheme":"dark_colorblind",
+    "urlMode":"pinyin",
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "GMEEK_VERSION":"last"
 }
