@@ -3,7 +3,7 @@
     "subTitle":"Live your life to the full!",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "displayTitle":"学而时习",
-    "homeUrl":"https://blog.ecn.us.kg",
+    "homeUrl":"https://zol.qzz.io",
     "i18n":"CN",
     "UTC":8,
     "themeMode":"manual",
@@ -11,5 +11,8 @@
     "nightTheme":"dark_colorblind",
     "urlMode":"pinyin",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "onePageListNum":"25",
+    "singlePage":"链接“,
+    ”needComment“:”1“
 }
