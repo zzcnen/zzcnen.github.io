@@ -13,6 +13,7 @@
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "GMEEK_VERSION":"last",
     "onePageListNum":"25",
-    "singlePage":"链接“,
-    ”needComment“:”1“
+    "singlePage":["link","about"],
+    ”needComment“:”1“,
+    "exlink":{"Download":"https://zce.qzz.io/","Blog":"https://vec.qzz.io/"},
 }
