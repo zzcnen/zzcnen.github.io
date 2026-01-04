@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    
+    <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="【高频前缀】
+1. un-：表否定、相反
+unhappy（不高兴的）、unusual（不寻常的）、unlock（解锁）、undoubted（无疑的）
+2. dis-：表否定、分离
+disappear（消失）、disagree（不同意）、disable（使丧失能力）、disorder（混乱）
+3. re-：表再次、重新
+review（复习）、rebuild（重建）、rewrite（重写）、reflect（反射；思考）
+4. pre-：表预先、在……之前
+prepare（准备）、preview（预习）、predict（预测）、preheat（预热）
+5. in-/im-/il-/ir-：表否定（词根首字母不同变体）
+incorrect（不正确的）、impossible（不可能的）、illegal（非法的）、irregular（不规则的）
+6. co-/com-/con-：表共同、联合
+	cooperate（合作）、communicate（交流）、connect（连接）、conclude（断定；结束）
+7. sub-：表在……下面、次要
+	subway（地铁）、subtitle（副标题）、substitute（替代品）、suburb（郊区）
+8. trans-：表横过、转移
+	translate（翻译）、transport（运输）、transfer（转移）、transform（使改变形态）
+9. mis-：表错误、不良
+	mistake（错误）、mislead（误导）、misjudge（误判）、misinform（误传信息）
+10. ex-：表向外、超出
+	export（出口）、expand（扩展）、exit（出口）、explain（解释）
+11. over-：表过度、超过
+oversleep（睡过头）、overcharge（要价过高）、overwork（过度工作）、overreact（反应过度）
+12. under-：表不足、低于
+underestimate（低估）、underdeveloped（欠发达的）、underpaid（报酬过低的）、underline（在……下划线）
+13. anti-：表反对、抗
+	antibody（抗体）、antibiotic（抗生素）、antivirus（抗病毒软件）
+14. post-：表在……之后
+	postpone（推迟）、postgraduate（研究生）、postwar（战后的）
+15. super-：表超级、超过
+	supermarket（超市）、superstar（超级明星）、superpower（超级大国）
+16. fore-：表预先、在前
+forecast（预报）、foresee（预见）、foretell（预言）
+17. bi-：表二、两
+	bicycle（自行车）、bilingual（双语的）、biology（生物学）
+18. inter-：表在……之间、相互
+	international（国际的）、interact（互动）、internet（互联网）
+19. de-：表去掉、变坏、强调
+	devalue（贬值）、declare（声明）、decrease（减少）、destroy（破坏）
+20. auto-：表自动、自己
+	automobile（汽车）、automation（自动化）、autobiography（自传）
+21. be-：表使……成为
+	belittle（贬低）、befriend（和……做朋友）、befall（降临）
+22. by-：表在旁边、副的
+	bystander（旁观者）、byproduct（副产品）、bywork（副业）
+23. circum-：表环绕、周围
+	circumstance（环境）、circulate（循环）
+24. bene-：表善、好
+	benefit（益处）、beneficial（有益的）、benefactor（恩人）
+25. tri-：表三
+	triangle（三角形）、tricycle（三轮车）、trilogy（三部曲）
+26. uni-：表单一、一个
+	uniform（制服）、universe（宇宙）、unique（独特的）
+27. multi-：表多
+	multimedia（多媒体）、multinational（跨国的）、multiple（多个的）
+28. dia-：表穿过、二者之间
+ 	dialogue（对话）、diameter（直径）、diagnose（诊断）
+29. ab-/abs-：表相反、离去
+	abnormal（反常的）、abuse（滥用）、absent（缺席的）
+30. a-：表不、无；表状态
+	asocial（不合群的）、asleep（睡着的）、afraid（害怕的）、alone（独自的）
+31. col-/cor-：表共同（接同辅音词根）
+ 	collect（收集）、correct（纠正）、collaborate（合作）
+32. non-：表不，非
+	nonsmoker（不吸烟者）、nonstop（直达的）、nonsense（无意义的话）
+33. dif-：表否定，分开
+	different（不同的）、difficult（困难的）
+34. extra-：表额外，超过
+	extraordinary（非凡的）、extracurricular（课外的）
+35. intro-：表向内，入内
+ 	introduce（介绍）、introvert（内向的人）
+36. kilo-：表千
+	kilogram（千克）、kilometer（千米）、kilowatt（千瓦）
+37. micro-：表微，小
+	microscope（显微镜）、microchip（微芯片）
+38. mini-：表小
+	minibus（小型公共汽车）、minimum（最小值）
+39. milli-：表千分之一
+	millimeter（毫米）、milligram（毫克）
+40. mono-：表单个，一个
+	monologue（独白）、monopoly（垄断）
+41. semi-：表半
+	semicircle（半圆）、semifinal（半决赛）、semiconductor（半导体）
+42. sym-/syn-：表共同，相同
+	sympathy（同情）、synchronize（同步）、symmetry（对称）
+43. ultra-：表极端，超过
+	ultraviolet（紫外线的）：指超出可见光范围的光线、ultramodern（超现代的）、ultralight（超轻型的）：指重量极端轻的
+44. vice-：表副
+	vice-president（副总统）、vice-principal（副校长）
+45. en-：表包围，进入
+	encourage（鼓励）、enclose（包围）、enable（使能够）
+46. with-：表向后，相反
+	withdraw（撤回）、withstand（抵抗）
+47. pro-：表向前，在前
+	progress（进步）、proceed（继续）、promote（促进）
+48. retro-：表向后，倒退
+	retrograde（倒退的）、retrospect（回顾）
+49. se-：表分开，离开
+	separate（分离）、select（选择）
+50. sur-：表超过，在上面
+	surpass（超过）、surface（表面）、surplus（剩余）
+51. sus-：表在下面
+	suspend（暂停）、sustain（维持）、suspect（怀疑）
+52. deca-：表十
+	decade（十年）、decathlon（十项全能）
+53. deci-：表十分之一
+	decimal（小数）、decimeter（分米）
+54. e-/ef-：表出，出来
+	educate（教育）、elect（选举）、effort（努力）
+55.  hemi-：表半
+	hemisphere（半球）
+
+【高频后缀】
+1. -er：表“人或物”
+teacher（教师）、worker（工人）、computer（电脑）、writer（作家）
+2. -tion/-sion：表行为、结果
+education（教育）、decision（决定）、discussion（讨论）、expression（表达）
+3. -ment：表行为、状态或结果
+development（发展）、achievement（成就）、argument（争论）、government（政府）
+4. -ful：表“充满……的”
+careful（仔细的）、helpful（有帮助的）、beautiful（美丽的）、grateful（感激的）
+5. -less：表“无……的”
+careless（粗心的）、homeless（无家可归的）、hopeless（无望的）、helpless（无助的）
+6. -or：表“人或物”
+	actor（男演员）、doctor（医生）、inventor（发明家）、visitor（游客）
+7. -able/-ible：表“可……的”
+	comfortable（舒适的）、possible（可能的）、visible（可     见的）、avoidable（可避免的）
+8. -ness：表性质、状态
+	kindness（善良）、sadness（悲伤）、darkness（黑暗）、weakness（虚弱）
+9. -al：可表名词“行为、相关事物”，也可表形容词“……的”
+		arrival（到达）、natural（自然的）、national（国家的）、approval（赞成）
+10. -y：可表名词“状态”， 也可表形容词“……的”
+	difficulty（困难）、healthy（健康的）、rainy（下雨的）、recovery（恢复）
+11. -ance/-ence：表性质、状态或行为
+	importance（重要性）、difference（差异）、performance（表现）、existence（存在）
+12. -ing：可表名词“行为、成果”，也可表形容词“令人……的”
+	training（训练）、reading（阅读）、interesting（有趣的）、exciting（令人兴奋的）
+13. -ed：表形容词“感到……的；被……的”
+	excited（兴奋的）、worried（担忧的）、crowded（拥挤的）、talented（有天赋的）
+14. -ity/-ty：表性质、状态
+	reality（现实）、safety（安全）、loyalty（忠诚）、equality（平等）
+15. -age：表状态、场所或相关事物
+	marriage（婚姻）、package（包裹）、postage（邮资）、shortage（短缺）
+16. -ive：表“具有……性质的”
+		active（积极的）、creative（有创造力的）、attractive（有吸引力的）、effective（有效的）
+17. -ure：表行为结果或状态
+	pressure（压力）、failure（失败）、departure（离开）、mixture（混合物）
+18. -cy：表性质、状态
+	fluency（流利）、accuracy（准确）、efficiency（效率）、urgency（紧急）
+19. -ant/-ent：可表人，也可表形容词“……的”
+	important（重要的）、different（不同的）、student（学生）、servant（仆人）
+20. -ion/-ation：表行为、过程或结果
+	pollution（污染）、invitation（邀请）、graduation（毕业）、organization（组织）
+21. -ese：表“某国／某地人；某国语言”
+	Chinese（中国人；中文）、Japanese（日本人；日文）
+22. -ism：表“主义、学说或行为”
+	socialism（社会主义）、criticism（批评）、tourism（旅游业）
+23. -dom：表领域、状态
+	freedom（自由）、wisdom（智慧）、kingdom（王国）
+24. -th：表性质、状态或度量
+	truth（真相）、length（长度）、strength（力量）、warmth（温暖）
+25. -ship：表身份、关系或技能
+	friendship（友谊）、leadership（领导力）、membership（会员身份）
+26. -en：表形容词“由……制成”
+	golden（金色的）、earthen（泥土做的）、woolen（羊毛制的）
+27. -ate：可表动词“使……；做……”，也可表形容词“具有……的”
+	activate（激活）、fortunate（幸运的）、graduate（毕业）
+28. -en：可表动词“使……变得”，也可表形容词“由……制成的”
+	widen（拓宽）、shorten（缩短）、wooden（木制的）
+29. -ize/-ise：表动词“使成为……；使……化”
+	organize（组织）、realize（意识到）、modernize（使现代化）
+30. -ry/-ery：表场所、行业或集合
+	factory（工厂）、bakery（面包店）、slavery（奴隶制）、machinery（机械）
+31. -ette：表“小的事物；女性相关”
+	cigarette（香烟）、kitchenette（小厨房）、statuette（小雕像）
+32. -ism：表“主义、风尚”
+	capitalism（资本主义）、terrorism（恐怖主义）、pessimism（悲观主义）
+33. -ling：表“小的……；具有某种特质的人”
+	duckling（小鸭子）、darling（亲爱的）、weakling（弱者）
+34. -ness：表名词“状态、性质”
+	awareness（意识）、illness（疾病）、coldness（冷淡）
+35. -ward(s)：表“朝向……的”
+	forward（向前的）、backward（向后的）、homeward（向家的）
+36. -phone：表“与声音相关的设备”
+	telephone（电话）、microphone（麦克风）、headphone（耳机）
+37. -scope：表“观察、测量的仪器”
+	telescope（望远镜）、microscope（显微镜）
+38. -logy：表“学科、研究领域”
+	biology（生物学）、sociology（社会学）、technology（技术）
+39. -ure：表名词“行为、结果”
+	exposure（暴露）、closure（关闭）、pleasure（快乐）
+40. -ity：表名词“性质、状态”
+	creativity（创造力）、diversity（多样性）、responsibility（责任）
+41. -etic：表形容词“与……相关的”
+	energetic（精力充沛的）、sympathetic（同情的）、kinetic（运动的）
+42. -ical：表形容词“与……相关的”
+	historical（历史的）、economical（经济的）、political（政治的）
+43. -ie：表“小的人或物；昵称”
+	birdie（小鸟）、auntie（阿姨）、cookie（小甜饼）
+44. -ist：表“从事某职业的人；某种主义的支持者”
+	scientist（科学家）、artist（艺术家）、socialist（社会主义者）
+45. -ism：表“某种行为或信仰”
+	sexism（性别歧视）、racism（种族主义）
+。">
+<meta property="og:title" content="【词汇积累】高中英语高频前后缀">
+<meta property="og:description" content="【高频前缀】
+1. un-：表否定、相反
+unhappy（不高兴的）、unusual（不寻常的）、unlock（解锁）、undoubted（无疑的）
+2. dis-：表否定、分离
+disappear（消失）、disagree（不同意）、disable（使丧失能力）、disorder（混乱）
+3. re-：表再次、重新
+review（复习）、rebuild（重建）、rewrite（重写）、reflect（反射；思考）
+4. pre-：表预先、在……之前
+prepare（准备）、preview（预习）、predict（预测）、preheat（预热）
+5. in-/im-/il-/ir-：表否定（词根首字母不同变体）
+incorrect（不正确的）、impossible（不可能的）、illegal（非法的）、irregular（不规则的）
+6. co-/com-/con-：表共同、联合
+	cooperate（合作）、communicate（交流）、connect（连接）、conclude（断定；结束）
+7. sub-：表在……下面、次要
+	subway（地铁）、subtitle（副标题）、substitute（替代品）、suburb（郊区）
+8. trans-：表横过、转移
+	translate（翻译）、transport（运输）、transfer（转移）、transform（使改变形态）
+9. mis-：表错误、不良
+	mistake（错误）、mislead（误导）、misjudge（误判）、misinform（误传信息）
+10. ex-：表向外、超出
+	export（出口）、expand（扩展）、exit（出口）、explain（解释）
+11. over-：表过度、超过
+oversleep（睡过头）、overcharge（要价过高）、overwork（过度工作）、overreact（反应过度）
+12. under-：表不足、低于
+underestimate（低估）、underdeveloped（欠发达的）、underpaid（报酬过低的）、underline（在……下划线）
+13. anti-：表反对、抗
+	antibody（抗体）、antibiotic（抗生素）、antivirus（抗病毒软件）
+14. post-：表在……之后
+	postpone（推迟）、postgraduate（研究生）、postwar（战后的）
+15. super-：表超级、超过
+	supermarket（超市）、superstar（超级明星）、superpower（超级大国）
+16. fore-：表预先、在前
+forecast（预报）、foresee（预见）、foretell（预言）
+17. bi-：表二、两
+	bicycle（自行车）、bilingual（双语的）、biology（生物学）
+18. inter-：表在……之间、相互
+	international（国际的）、interact（互动）、internet（互联网）
+19. de-：表去掉、变坏、强调
+	devalue（贬值）、declare（声明）、decrease（减少）、destroy（破坏）
+20. auto-：表自动、自己
+	automobile（汽车）、automation（自动化）、autobiography（自传）
+21. be-：表使……成为
+	belittle（贬低）、befriend（和……做朋友）、befall（降临）
+22. by-：表在旁边、副的
+	bystander（旁观者）、byproduct（副产品）、bywork（副业）
+23. circum-：表环绕、周围
+	circumstance（环境）、circulate（循环）
+24. bene-：表善、好
+	benefit（益处）、beneficial（有益的）、benefactor（恩人）
+25. tri-：表三
+	triangle（三角形）、tricycle（三轮车）、trilogy（三部曲）
+26. uni-：表单一、一个
+	uniform（制服）、universe（宇宙）、unique（独特的）
+27. multi-：表多
+	multimedia（多媒体）、multinational（跨国的）、multiple（多个的）
+28. dia-：表穿过、二者之间
+ 	dialogue（对话）、diameter（直径）、diagnose（诊断）
+29. ab-/abs-：表相反、离去
+	abnormal（反常的）、abuse（滥用）、absent（缺席的）
+30. a-：表不、无；表状态
+	asocial（不合群的）、asleep（睡着的）、afraid（害怕的）、alone（独自的）
+31. col-/cor-：表共同（接同辅音词根）
+ 	collect（收集）、correct（纠正）、collaborate（合作）
+32. non-：表不，非
+	nonsmoker（不吸烟者）、nonstop（直达的）、nonsense（无意义的话）
+33. dif-：表否定，分开
+	different（不同的）、difficult（困难的）
+34. extra-：表额外，超过
+	extraordinary（非凡的）、extracurricular（课外的）
+35. intro-：表向内，入内
+ 	introduce（介绍）、introvert（内向的人）
+36. kilo-：表千
+	kilogram（千克）、kilometer（千米）、kilowatt（千瓦）
+37. micro-：表微，小
+	microscope（显微镜）、microchip（微芯片）
+38. mini-：表小
+	minibus（小型公共汽车）、minimum（最小值）
+39. milli-：表千分之一
+	millimeter（毫米）、milligram（毫克）
+40. mono-：表单个，一个
+	monologue（独白）、monopoly（垄断）
+41. semi-：表半
+	semicircle（半圆）、semifinal（半决赛）、semiconductor（半导体）
+42. sym-/syn-：表共同，相同
+	sympathy（同情）、synchronize（同步）、symmetry（对称）
+43. ultra-：表极端，超过
+	ultraviolet（紫外线的）：指超出可见光范围的光线、ultramodern（超现代的）、ultralight（超轻型的）：指重量极端轻的
+44. vice-：表副
+	vice-president（副总统）、vice-principal（副校长）
+45. en-：表包围，进入
+	encourage（鼓励）、enclose（包围）、enable（使能够）
+46. with-：表向后，相反
+	withdraw（撤回）、withstand（抵抗）
+47. pro-：表向前，在前
+	progress（进步）、proceed（继续）、promote（促进）
+48. retro-：表向后，倒退
+	retrograde（倒退的）、retrospect（回顾）
+49. se-：表分开，离开
+	separate（分离）、select（选择）
+50. sur-：表超过，在上面
+	surpass（超过）、surface（表面）、surplus（剩余）
+51. sus-：表在下面
+	suspend（暂停）、sustain（维持）、suspect（怀疑）
+52. deca-：表十
+	decade（十年）、decathlon（十项全能）
+53. deci-：表十分之一
+	decimal（小数）、decimeter（分米）
+54. e-/ef-：表出，出来
+	educate（教育）、elect（选举）、effort（努力）
+55.  hemi-：表半
+	hemisphere（半球）
+
+【高频后缀】
+1. -er：表“人或物”
+teacher（教师）、worker（工人）、computer（电脑）、writer（作家）
+2. -tion/-sion：表行为、结果
+education（教育）、decision（决定）、discussion（讨论）、expression（表达）
+3. -ment：表行为、状态或结果
+development（发展）、achievement（成就）、argument（争论）、government（政府）
+4. -ful：表“充满……的”
+careful（仔细的）、helpful（有帮助的）、beautiful（美丽的）、grateful（感激的）
+5. -less：表“无……的”
+careless（粗心的）、homeless（无家可归的）、hopeless（无望的）、helpless（无助的）
+6. -or：表“人或物”
+	actor（男演员）、doctor（医生）、inventor（发明家）、visitor（游客）
+7. -able/-ible：表“可……的”
+	comfortable（舒适的）、possible（可能的）、visible（可     见的）、avoidable（可避免的）
+8. -ness：表性质、状态
+	kindness（善良）、sadness（悲伤）、darkness（黑暗）、weakness（虚弱）
+9. -al：可表名词“行为、相关事物”，也可表形容词“……的”
+		arrival（到达）、natural（自然的）、national（国家的）、approval（赞成）
+10. -y：可表名词“状态”， 也可表形容词“……的”
+	difficulty（困难）、healthy（健康的）、rainy（下雨的）、recovery（恢复）
+11. -ance/-ence：表性质、状态或行为
+	importance（重要性）、difference（差异）、performance（表现）、existence（存在）
+12. -ing：可表名词“行为、成果”，也可表形容词“令人……的”
+	training（训练）、reading（阅读）、interesting（有趣的）、exciting（令人兴奋的）
+13. -ed：表形容词“感到……的；被……的”
+	excited（兴奋的）、worried（担忧的）、crowded（拥挤的）、talented（有天赋的）
+14. -ity/-ty：表性质、状态
+	reality（现实）、safety（安全）、loyalty（忠诚）、equality（平等）
+15. -age：表状态、场所或相关事物
+	marriage（婚姻）、package（包裹）、postage（邮资）、shortage（短缺）
+16. -ive：表“具有……性质的”
+		active（积极的）、creative（有创造力的）、attractive（有吸引力的）、effective（有效的）
+17. -ure：表行为结果或状态
+	pressure（压力）、failure（失败）、departure（离开）、mixture（混合物）
+18. -cy：表性质、状态
+	fluency（流利）、accuracy（准确）、efficiency（效率）、urgency（紧急）
+19. -ant/-ent：可表人，也可表形容词“……的”
+	important（重要的）、different（不同的）、student（学生）、servant（仆人）
+20. -ion/-ation：表行为、过程或结果
+	pollution（污染）、invitation（邀请）、graduation（毕业）、organization（组织）
+21. -ese：表“某国／某地人；某国语言”
+	Chinese（中国人；中文）、Japanese（日本人；日文）
+22. -ism：表“主义、学说或行为”
+	socialism（社会主义）、criticism（批评）、tourism（旅游业）
+23. -dom：表领域、状态
+	freedom（自由）、wisdom（智慧）、kingdom（王国）
+24. -th：表性质、状态或度量
+	truth（真相）、length（长度）、strength（力量）、warmth（温暖）
+25. -ship：表身份、关系或技能
+	friendship（友谊）、leadership（领导力）、membership（会员身份）
+26. -en：表形容词“由……制成”
+	golden（金色的）、earthen（泥土做的）、woolen（羊毛制的）
+27. -ate：可表动词“使……；做……”，也可表形容词“具有……的”
+	activate（激活）、fortunate（幸运的）、graduate（毕业）
+28. -en：可表动词“使……变得”，也可表形容词“由……制成的”
+	widen（拓宽）、shorten（缩短）、wooden（木制的）
+29. -ize/-ise：表动词“使成为……；使……化”
+	organize（组织）、realize（意识到）、modernize（使现代化）
+30. -ry/-ery：表场所、行业或集合
+	factory（工厂）、bakery（面包店）、slavery（奴隶制）、machinery（机械）
+31. -ette：表“小的事物；女性相关”
+	cigarette（香烟）、kitchenette（小厨房）、statuette（小雕像）
+32. -ism：表“主义、风尚”
+	capitalism（资本主义）、terrorism（恐怖主义）、pessimism（悲观主义）
+33. -ling：表“小的……；具有某种特质的人”
+	duckling（小鸭子）、darling（亲爱的）、weakling（弱者）
+34. -ness：表名词“状态、性质”
+	awareness（意识）、illness（疾病）、coldness（冷淡）
+35. -ward(s)：表“朝向……的”
+	forward（向前的）、backward（向后的）、homeward（向家的）
+36. -phone：表“与声音相关的设备”
+	telephone（电话）、microphone（麦克风）、headphone（耳机）
+37. -scope：表“观察、测量的仪器”
+	telescope（望远镜）、microscope（显微镜）
+38. -logy：表“学科、研究领域”
+	biology（生物学）、sociology（社会学）、technology（技术）
+39. -ure：表名词“行为、结果”
+	exposure（暴露）、closure（关闭）、pleasure（快乐）
+40. -ity：表名词“性质、状态”
+	creativity（创造力）、diversity（多样性）、responsibility（责任）
+41. -etic：表形容词“与……相关的”
+	energetic（精力充沛的）、sympathetic（同情的）、kinetic（运动的）
+42. -ical：表形容词“与……相关的”
+	historical（历史的）、economical（经济的）、political（政治的）
+43. -ie：表“小的人或物；昵称”
+	birdie（小鸟）、auntie（阿姨）、cookie（小甜饼）
+44. -ist：表“从事某职业的人；某种主义的支持者”
+	scientist（科学家）、artist（艺术家）、socialist（社会主义者）
+45. -ism：表“某种行为或信仰”
+	sexism（性别歧视）、racism（种族主义）
+。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zol.qzz.io/post/%E3%80%90-ci-hui-ji-lei-%E3%80%91-gao-zhong-ying-yu-gao-pin-qian-hou-zhui.html">
+<meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
+<title>【词汇积累】高中英语高频前后缀</title>
+
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">【词汇积累】高中英语高频前后缀</h1>
+<div class="title-right">
+    <a href="https://zol.qzz.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/zzcnen/zzcnen.github.io/issues/13" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><p>【高频前缀】</p>
+<ol>
+<li>un-：表否定、相反<br>
+unhappy（不高兴的）、unusual（不寻常的）、unlock（解锁）、undoubted（无疑的）</li>
+<li>dis-：表否定、分离<br>
+disappear（消失）、disagree（不同意）、disable（使丧失能力）、disorder（混乱）</li>
+<li>re-：表再次、重新<br>
+review（复习）、rebuild（重建）、rewrite（重写）、reflect（反射；思考）</li>
+<li>pre-：表预先、在……之前<br>
+prepare（准备）、preview（预习）、predict（预测）、preheat（预热）</li>
+<li>in-/im-/il-/ir-：表否定（词根首字母不同变体）<br>
+incorrect（不正确的）、impossible（不可能的）、illegal（非法的）、irregular（不规则的）</li>
+<li>co-/com-/con-：表共同、联合<br>
+cooperate（合作）、communicate（交流）、connect（连接）、conclude（断定；结束）</li>
+<li>sub-：表在……下面、次要<br>
+subway（地铁）、subtitle（副标题）、substitute（替代品）、suburb（郊区）</li>
+<li>trans-：表横过、转移<br>
+translate（翻译）、transport（运输）、transfer（转移）、transform（使改变形态）</li>
+<li>mis-：表错误、不良<br>
+mistake（错误）、mislead（误导）、misjudge（误判）、misinform（误传信息）</li>
+<li>ex-：表向外、超出<br>
+export（出口）、expand（扩展）、exit（出口）、explain（解释）</li>
+<li>over-：表过度、超过<br>
+oversleep（睡过头）、overcharge（要价过高）、overwork（过度工作）、overreact（反应过度）</li>
+<li>under-：表不足、低于<br>
+underestimate（低估）、underdeveloped（欠发达的）、underpaid（报酬过低的）、underline（在……下划线）</li>
+<li>anti-：表反对、抗<br>
+antibody（抗体）、antibiotic（抗生素）、antivirus（抗病毒软件）</li>
+<li>post-：表在……之后<br>
+postpone（推迟）、postgraduate（研究生）、postwar（战后的）</li>
+<li>super-：表超级、超过<br>
+supermarket（超市）、superstar（超级明星）、superpower（超级大国）</li>
+<li>fore-：表预先、在前<br>
+forecast（预报）、foresee（预见）、foretell（预言）</li>
+<li>bi-：表二、两<br>
+bicycle（自行车）、bilingual（双语的）、biology（生物学）</li>
+<li>inter-：表在……之间、相互<br>
+international（国际的）、interact（互动）、internet（互联网）</li>
+<li>de-：表去掉、变坏、强调<br>
+devalue（贬值）、declare（声明）、decrease（减少）、destroy（破坏）</li>
+<li>auto-：表自动、自己<br>
+automobile（汽车）、automation（自动化）、autobiography（自传）</li>
+<li>be-：表使……成为<br>
+belittle（贬低）、befriend（和……做朋友）、befall（降临）</li>
+<li>by-：表在旁边、副的<br>
+bystander（旁观者）、byproduct（副产品）、bywork（副业）</li>
+<li>circum-：表环绕、周围<br>
+circumstance（环境）、circulate（循环）</li>
+<li>bene-：表善、好<br>
+benefit（益处）、beneficial（有益的）、benefactor（恩人）</li>
+<li>tri-：表三<br>
+triangle（三角形）、tricycle（三轮车）、trilogy（三部曲）</li>
+<li>uni-：表单一、一个<br>
+uniform（制服）、universe（宇宙）、unique（独特的）</li>
+<li>multi-：表多<br>
+multimedia（多媒体）、multinational（跨国的）、multiple（多个的）</li>
+<li>dia-：表穿过、二者之间<br>
+dialogue（对话）、diameter（直径）、diagnose（诊断）</li>
+<li>ab-/abs-：表相反、离去<br>
+abnormal（反常的）、abuse（滥用）、absent（缺席的）</li>
+<li>a-：表不、无；表状态<br>
+asocial（不合群的）、asleep（睡着的）、afraid（害怕的）、alone（独自的）</li>
+<li>col-/cor-：表共同（接同辅音词根）<br>
+collect（收集）、correct（纠正）、collaborate（合作）</li>
+<li>non-：表不，非<br>
+nonsmoker（不吸烟者）、nonstop（直达的）、nonsense（无意义的话）</li>
+<li>dif-：表否定，分开<br>
+different（不同的）、difficult（困难的）</li>
+<li>extra-：表额外，超过<br>
+extraordinary（非凡的）、extracurricular（课外的）</li>
+<li>intro-：表向内，入内<br>
+introduce（介绍）、introvert（内向的人）</li>
+<li>kilo-：表千<br>
+kilogram（千克）、kilometer（千米）、kilowatt（千瓦）</li>
+<li>micro-：表微，小<br>
+microscope（显微镜）、microchip（微芯片）</li>
+<li>mini-：表小<br>
+minibus（小型公共汽车）、minimum（最小值）</li>
+<li>milli-：表千分之一<br>
+millimeter（毫米）、milligram（毫克）</li>
+<li>mono-：表单个，一个<br>
+monologue（独白）、monopoly（垄断）</li>
+<li>semi-：表半<br>
+semicircle（半圆）、semifinal（半决赛）、semiconductor（半导体）</li>
+<li>sym-/syn-：表共同，相同<br>
+sympathy（同情）、synchronize（同步）、symmetry（对称）</li>
+<li>ultra-：表极端，超过<br>
+ultraviolet（紫外线的）：指超出可见光范围的光线、ultramodern（超现代的）、ultralight（超轻型的）：指重量极端轻的</li>
+<li>vice-：表副<br>
+vice-president（副总统）、vice-principal（副校长）</li>
+<li>en-：表包围，进入<br>
+encourage（鼓励）、enclose（包围）、enable（使能够）</li>
+<li>with-：表向后，相反<br>
+withdraw（撤回）、withstand（抵抗）</li>
+<li>pro-：表向前，在前<br>
+progress（进步）、proceed（继续）、promote（促进）</li>
+<li>retro-：表向后，倒退<br>
+retrograde（倒退的）、retrospect（回顾）</li>
+<li>se-：表分开，离开<br>
+separate（分离）、select（选择）</li>
+<li>sur-：表超过，在上面<br>
+surpass（超过）、surface（表面）、surplus（剩余）</li>
+<li>sus-：表在下面<br>
+suspend（暂停）、sustain（维持）、suspect（怀疑）</li>
+<li>deca-：表十<br>
+decade（十年）、decathlon（十项全能）</li>
+<li>deci-：表十分之一<br>
+decimal（小数）、decimeter（分米）</li>
+<li>e-/ef-：表出，出来<br>
+educate（教育）、elect（选举）、effort（努力）</li>
+<li>hemi-：表半<br>
+hemisphere（半球）</li>
+</ol>
+<p>【高频后缀】</p>
+<ol>
+<li>-er：表“人或物”<br>
+teacher（教师）、worker（工人）、computer（电脑）、writer（作家）</li>
+<li>-tion/-sion：表行为、结果<br>
+education（教育）、decision（决定）、discussion（讨论）、expression（表达）</li>
+<li>-ment：表行为、状态或结果<br>
+development（发展）、achievement（成就）、argument（争论）、government（政府）</li>
+<li>-ful：表“充满……的”<br>
+careful（仔细的）、helpful（有帮助的）、beautiful（美丽的）、grateful（感激的）</li>
+<li>-less：表“无……的”<br>
+careless（粗心的）、homeless（无家可归的）、hopeless（无望的）、helpless（无助的）</li>
+<li>-or：表“人或物”<br>
+actor（男演员）、doctor（医生）、inventor（发明家）、visitor（游客）</li>
+<li>-able/-ible：表“可……的”<br>
+comfortable（舒适的）、possible（可能的）、visible（可     见的）、avoidable（可避免的）</li>
+<li>-ness：表性质、状态<br>
+kindness（善良）、sadness（悲伤）、darkness（黑暗）、weakness（虚弱）</li>
+<li>-al：可表名词“行为、相关事物”，也可表形容词“……的”<br>
+arrival（到达）、natural（自然的）、national（国家的）、approval（赞成）</li>
+<li>-y：可表名词“状态”， 也可表形容词“……的”<br>
+difficulty（困难）、healthy（健康的）、rainy（下雨的）、recovery（恢复）</li>
+<li>-ance/-ence：表性质、状态或行为<br>
+importance（重要性）、difference（差异）、performance（表现）、existence（存在）</li>
+<li>-ing：可表名词“行为、成果”，也可表形容词“令人……的”<br>
+training（训练）、reading（阅读）、interesting（有趣的）、exciting（令人兴奋的）</li>
+<li>-ed：表形容词“感到……的；被……的”<br>
+excited（兴奋的）、worried（担忧的）、crowded（拥挤的）、talented（有天赋的）</li>
+<li>-ity/-ty：表性质、状态<br>
+reality（现实）、safety（安全）、loyalty（忠诚）、equality（平等）</li>
+<li>-age：表状态、场所或相关事物<br>
+marriage（婚姻）、package（包裹）、postage（邮资）、shortage（短缺）</li>
+<li>-ive：表“具有……性质的”<br>
+active（积极的）、creative（有创造力的）、attractive（有吸引力的）、effective（有效的）</li>
+<li>-ure：表行为结果或状态<br>
+pressure（压力）、failure（失败）、departure（离开）、mixture（混合物）</li>
+<li>-cy：表性质、状态<br>
+fluency（流利）、accuracy（准确）、efficiency（效率）、urgency（紧急）</li>
+<li>-ant/-ent：可表人，也可表形容词“……的”<br>
+important（重要的）、different（不同的）、student（学生）、servant（仆人）</li>
+<li>-ion/-ation：表行为、过程或结果<br>
+pollution（污染）、invitation（邀请）、graduation（毕业）、organization（组织）</li>
+<li>-ese：表“某国／某地人；某国语言”<br>
+Chinese（中国人；中文）、Japanese（日本人；日文）</li>
+<li>-ism：表“主义、学说或行为”<br>
+socialism（社会主义）、criticism（批评）、tourism（旅游业）</li>
+<li>-dom：表领域、状态<br>
+freedom（自由）、wisdom（智慧）、kingdom（王国）</li>
+<li>-th：表性质、状态或度量<br>
+truth（真相）、length（长度）、strength（力量）、warmth（温暖）</li>
+<li>-ship：表身份、关系或技能<br>
+friendship（友谊）、leadership（领导力）、membership（会员身份）</li>
+<li>-en：表形容词“由……制成”<br>
+golden（金色的）、earthen（泥土做的）、woolen（羊毛制的）</li>
+<li>-ate：可表动词“使……；做……”，也可表形容词“具有……的”<br>
+activate（激活）、fortunate（幸运的）、graduate（毕业）</li>
+<li>-en：可表动词“使……变得”，也可表形容词“由……制成的”<br>
+widen（拓宽）、shorten（缩短）、wooden（木制的）</li>
+<li>-ize/-ise：表动词“使成为……；使……化”<br>
+organize（组织）、realize（意识到）、modernize（使现代化）</li>
+<li>-ry/-ery：表场所、行业或集合<br>
+factory（工厂）、bakery（面包店）、slavery（奴隶制）、machinery（机械）</li>
+<li>-ette：表“小的事物；女性相关”<br>
+cigarette（香烟）、kitchenette（小厨房）、statuette（小雕像）</li>
+<li>-ism：表“主义、风尚”<br>
+capitalism（资本主义）、terrorism（恐怖主义）、pessimism（悲观主义）</li>
+<li>-ling：表“小的……；具有某种特质的人”<br>
+duckling（小鸭子）、darling（亲爱的）、weakling（弱者）</li>
+<li>-ness：表名词“状态、性质”<br>
+awareness（意识）、illness（疾病）、coldness（冷淡）</li>
+<li>-ward(s)：表“朝向……的”<br>
+forward（向前的）、backward（向后的）、homeward（向家的）</li>
+<li>-phone：表“与声音相关的设备”<br>
+telephone（电话）、microphone（麦克风）、headphone（耳机）</li>
+<li>-scope：表“观察、测量的仪器”<br>
+telescope（望远镜）、microscope（显微镜）</li>
+<li>-logy：表“学科、研究领域”<br>
+biology（生物学）、sociology（社会学）、technology（技术）</li>
+<li>-ure：表名词“行为、结果”<br>
+exposure（暴露）、closure（关闭）、pleasure（快乐）</li>
+<li>-ity：表名词“性质、状态”<br>
+creativity（创造力）、diversity（多样性）、responsibility（责任）</li>
+<li>-etic：表形容词“与……相关的”<br>
+energetic（精力充沛的）、sympathetic（同情的）、kinetic（运动的）</li>
+<li>-ical：表形容词“与……相关的”<br>
+historical（历史的）、economical（经济的）、political（政治的）</li>
+<li>-ie：表“小的人或物；昵称”<br>
+birdie（小鸟）、auntie（阿姨）、cookie（小甜饼）</li>
+<li>-ist：表“从事某职业的人；某种主义的支持者”<br>
+scientist（科学家）、artist（艺术家）、socialist（社会主义者）</li>
+<li>-ism：表“某种行为或信仰”<br>
+sexism（性别歧视）、racism（种族主义）</li>
+</ol></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://zol.qzz.io">MeBlog</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","zzcnen/zzcnen.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+
+
+</script>
+<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>
+
+</html>
