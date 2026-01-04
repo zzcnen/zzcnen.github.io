@@ -11,7 +11,7 @@
     "nightTheme":"dark_colorblind",
     "urlMode":"pinyin",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
-    "onePageListNum":"25",
+    "onePageListNum":25,
     "needComment":1,
     "GMEEK_VERSION":"last"
 }
